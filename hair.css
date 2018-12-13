@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  margin-top: 25px;
+  margin-left: 45px;
+
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+
+}
+
+nav ul {
+  list-style: none;
+  text-align: left;
+  margin-left: 500px;
+  margin-top: 15px;
+}
+
+nav ul li {
+display: inline-block;
+font-size: 0.9em;
+margin: 10px;
+
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family:  'Press Start 2P';
+  font-size: 11px;
+  color: purple;
+
+
+}
+
+.search {
+
+  margin-left: 400px;
+  margin-top: 20px;
+  width: 400px;
+
+}
+
+div ul {
+list-style: none;
+
+}
+
+div ul li a {
+  text-decoration: none;
+}
+
+.wrapper {
+	width: 68em;
+}
+
+/*  stuff from jack */
+
+* {
+  box-sizing: border-box;
+}
