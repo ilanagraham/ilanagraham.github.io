@@ -15,5 +15,6 @@ p {
   /* font-family:  'Press Start 2P', cursive; */
   font-family: 'VT323', monospace;
   font-size:25px;
+  padding: 10px;
 
 }
