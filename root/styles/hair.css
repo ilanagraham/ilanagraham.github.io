@@ -63,3 +63,14 @@ div ul li a {
 * {
   box-sizing: border-box;
 }
+
+span {
+  /* margin: 400px; */
+  font-family: 'Press Start 2P', cursive;
+  font-size: 30px;
+  background-color: #fff2ac;
+  margin-left: 400px;
+  padding: 10px;
+  text-transform: uppercase;
+
+}
