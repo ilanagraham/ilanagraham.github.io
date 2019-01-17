@@ -1,0 +1,8 @@
+p {
+  font-family: 'VT323', monospace;
+  font-size: 45px;
+  text-align: center;
+  margin-top: 250px;
+  background-color: #fff2ac;
+  background-image: linear-gradient(to right, #ffe359 0%, #fff2ac 100%;
+}
