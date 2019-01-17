@@ -9,7 +9,13 @@ h1 {
 font-size: 30px;
 margin-top: 90px;
 margin-left: 300px;
+
 /* text-align: center; */
+}
+
+span {
+background-color: #D8BFD8;
+padding: 10px;
 }
 
 p {
