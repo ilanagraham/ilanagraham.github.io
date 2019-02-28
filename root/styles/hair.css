@@ -74,3 +74,9 @@ span {
   /* text-transform: uppercase; */
 
 }
+
+h1 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 30px;
+  background-color: #fff2ac;
+}
