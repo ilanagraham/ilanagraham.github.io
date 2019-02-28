@@ -69,8 +69,8 @@ span {
   font-family: 'Press Start 2P', cursive;
   font-size: 30px;
   background-color: #fff2ac;
-  margin-left: 400px;
-  padding: 10px;
+  /* margin-left: 400px;
+  padding: 10px; */
   text-transform: uppercase;
 
 }
