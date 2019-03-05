@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-
+/* logo  */
 img {
   margin-top: 25px;
   margin-left: 45px;
@@ -13,6 +13,7 @@ img {
   flex-direction: row;
 
 }
+/*  styling the navigation bar */
 
 nav ul {
   list-style: none;
@@ -29,21 +30,12 @@ margin: 10px;
 
 nav ul li a {
   text-decoration: none;
-  /* font-family: sans-serif; */
   font-family:  'Press Start 2P', cursive;
   font-size: 11px;
 
 
 }
 
-
-.search {
-
-  margin-left: 400px;
-  margin-top: 20px;
-  width: 400px;
-
-}
 
 
 div ul {
@@ -55,12 +47,7 @@ div ul li a {
   text-decoration: none;
 }
 
-/*.cat {
-  display: grid;
-  grid-template-columns: 200px 200px 200px;
-  grid-template-rows: 100px 100px;
-} */
-
+/* creating grid layout  */
  .wrapper {
   display: grid;
   grid-template-columns: 420px 420px 420px;
@@ -75,7 +62,6 @@ div ul li a {
 
 .box {
   background-color: #444;
-   /* color: #fff; */
   color: black;
   padding: 20px;
   font-size: 150%;
@@ -98,93 +84,65 @@ a {
   font-family:sans-serif;
 }
 
-/*  stuff to delete */
 
-{
-  f
-}
-/*  stuff to not save */
+/*  styling the grid layout */
 
 .a {
 background-image: url("../images/braids.jpg");
 background-size: cover;
-/* filter: invert(0.2); */
 }
 
-/* .one {
-  background-color: pink;
-  opacity:0.5;
-
-} */
 
 .b {
-  /* background-color: green; */
   background-image: url("../images/eyeshadow.jpg");
   background-size: cover;
-  /* filter: invert(0.2); */
 
 }
 .c {
-  /* background-color: orange; */
   background-image: url("../images/girlbeauty.jpg");
   background-size: cover;
-  /* filter: invert(0.2); */
 
 
 }
 .d {
-  /* background-color: blue; */
   background-image: url("../images/nails.jpg");
   background-size: cover;
-  /* filter: invert(0.2); */
 
 
 }
 .e {
-  /* background-color: purple; */
   background-image: url("../images/cake.jpg");
   background-size: cover;
-  /* filter: invert(0.2); */
 
 
 }
 .f {
-  /* background-color: maroon; */
   background-image: url("../images/fashion2.jpg");
   background-size: cover;
-  /* filter: invert(0.2); */
 
 
 }
 .g {
-  /* background-color: red; */
   background-image: url("../images/supplies.jpg");
   background-size: cover;
-  /* filter: invert(0.2); */
 
 
 }
 .h {
-  /* background-color: navy; */
   background-image: url("../images/hairdress.jpg");
   background-size: cover;
-  /* filter: invert(0.2); */
 
 }
 .i {
-  /* background-color: teal; */
   background-image: url("../images/lashes3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  /* filter: invert(0.2); */
 
 }
-/* 1399.5px */
 @media only screen and (max-width: 1370px) {
 
 nav ul {
 
-  /* margin-left: 450px; */
  }
  .wrapper {
   display: grid;
@@ -199,13 +157,11 @@ nav ul {
 }
 }
 
-/*  1350*/
+/*  responsiveness */
+
 @media only screen and (max-width: 1290px) {
 
-nav ul {
 
-  /* margin-left: 450px; */
- }
  .wrapper {
   display: grid;
   grid-template-columns: 380px 380px 380px;
@@ -219,10 +175,7 @@ nav ul {
 }
 @media only screen and (max-width: 1190px) {
 
-nav ul {
 
-  /* margin-left: 450px; */
- }
  .wrapper {
   display: grid;
   grid-template-columns: 340px 340px 340px;
@@ -237,10 +190,7 @@ nav ul {
 
 @media only screen and (max-width: 1100px) {
 
-nav ul {
 
-  /* margin-left: 450px; */
- }
  .wrapper {
   display: grid;
   grid-template-columns: 420px 420px;
@@ -254,10 +204,7 @@ nav ul {
 }
 @media only screen and (max-width: 915px) {
 
-nav ul {
 
-  /* margin-left: 450px; */
- }
  .wrapper {
   display: grid;
   grid-template-columns: 400px 400px;

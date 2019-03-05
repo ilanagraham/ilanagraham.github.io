@@ -37,13 +37,6 @@ nav ul li a {
 
 }
 
-.search {
-
-  margin-left: 400px;
-  margin-top: 20px;
-  width: 400px;
-
-}
 
 div ul {
 list-style: none;
@@ -58,25 +51,11 @@ div ul li a {
 	width: 68em;
 }
 
-/*  stuff from jack */
-
-* {
-  box-sizing: border-box;
-}
-
+/*  styling the page titles */
 span {
-  /* margin: 400px; */
   font-family: 'Press Start 2P', cursive;
   font-size: 30px;
   background-color: #fff2ac;
-  /* margin-left: 400px;
-  padding: 10px; */
   text-transform: uppercase;
 
 }
-
-/* .text-center {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 30px;
-  background-color: #fff2ac;
-} */
